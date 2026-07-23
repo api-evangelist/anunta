@@ -1,8 +1,26 @@
 aid: anunta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anunta.png
 name: Anunta
-description: 'Anunta is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: developer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Anunta is an enterprise managed-services company specializing in Desktop-as-a-Service
+  (DaaS), Virtual Desktop Infrastructure (VDI), managed endpoints, and cloud services across
+  private, public, and hybrid cloud environments. It delivers secure digital workspaces for
+  large enterprises, with proprietary platforms including DesktopReady (off-the-shelf DaaS),
+  CloudOptimal (cloud cost management and optimization), EuVantage (VDI environment visibility
+  and management), and an AI Fabric operations-automation layer. Anunta reports over one
+  million migrated users, 400,000+ active users, and 99.98% user uptime. Surfaced as a
+  portfolio company of Bessemer Venture Partners, Anunta operates primarily as a services
+  provider and does not publish a public developer API, SDKs, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/anunta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,7 +33,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Developer
+- Desktop as a Service
+- DaaS
+- Virtual Desktop Infrastructure
+- VDI
+- Cloud Services
+- Managed Endpoints
+- Enterprise IT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.anuntatech.com/
+  url: https://www.anunta.com/
+- type: Blog
+  url: https://www.anunta.com/blog/
+- type: Support
+  url: https://www.anunta.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.anunta.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.anunta.com/disclaimer/
+- type: DomainSecurity
+  url: security/anunta-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
